@@ -1,7 +1,7 @@
 import os
 from abc import ABC, abstractmethod
 
-class RemoveFile:
+class RemoverFile:
     
     @abstractmethod
     def removerArqDiretorioEhSubDiretorio(diretorio_remocao, remocao):
