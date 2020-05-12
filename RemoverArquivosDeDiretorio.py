@@ -27,7 +27,7 @@ class RemoveFile:
                             try:
                                 print("Arquivo removido....: {0}".format(file))                                
                                 registros_excluidos = registros_excluidos + 1
-                                # os.remove(os.path.join(root, file))
+                                os.remove(os.path.join(root, file))
                             except:
                                 print("Ops.... Erro ao remover o arquivo:".format(file))
                         else:                            
